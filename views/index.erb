@@ -1,0 +1,12 @@
+<h1>Fill in a word</h1>
+  <form action='/display'>
+    <div class="form-group">
+      <label for="word">Your word</label>
+      <input id="word" name="word" class="form-control" type="text">
+    </div>
+    <button type="submit" class="btn">Go!</button>
+  </form>
+
+  <div>
+    <%= @word%>
+  </div>
